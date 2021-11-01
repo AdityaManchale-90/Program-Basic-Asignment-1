@@ -1,6 +1,6 @@
 # 4. Write a Python program to swap two variables?
 
-# Program is written to take inputs from the user
+# Program is written to take inputs from the user.
 a = input("Enter first value a: ")
 b = input("Enter second value b: ")
 

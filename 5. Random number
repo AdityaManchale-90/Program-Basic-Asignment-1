@@ -1,0 +1,11 @@
+# 5. Write a Python program to generate a random number?
+
+# In this program we will take range from the user and generate random number.
+# importing the random module
+
+import random
+
+x = input("Enter value of range from: ")
+y = input("Enter value of range to: ")
+r = (random.randint(int(x),int(y)))
+print("Random number found is: ", r)

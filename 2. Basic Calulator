@@ -1,16 +1,10 @@
 # 2. Write a Python program to do arithmetical operations addition and division.?
 
-# This program is written to take inputs from user & operation to be done.
+# This program is written to take inputs from user. In result we get both sum and division of the input.
 
 a = input("Enter a number: ")
-b = input("Enter another number: ")
-oper = input("Enter type of operation to be done(s for sum & d for division): ")
-
-if oper == "s":
-    sum = float(a) + float(b)
-    print("Sum of the entered number is: ", sum)
-elif oper == "d":
-    div = float(a) / float(b)
-    print("Division of the entered number is: ", div)
-else :
-    print("Wrong input. Try again.")
+b = input("Enter a non-zero number: ")
+sum = float(a) + float(b)
+print("Sum of the entered number is: ", sum)
+div = float(a) / float(b)
+print("Division of the entered number is: ", div)
